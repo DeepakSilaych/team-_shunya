@@ -1484,6 +1484,20 @@ section {
   margin-right: 10px;
   height: 160px;
 }
+
+.supporter-logo a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supporter-logo a img{
+  height: 100%;
+  margin: 0 auto;
+}
+
 #supporters .supporter-logo {
   padding: 30px;
   display: flex;
@@ -1494,7 +1508,6 @@ section {
   overflow: hidden;
   background:#fff;
  /* background: rgba(255, 255, 255, 0.5); */
-
   height: 160px;
 }
 
@@ -1503,6 +1516,7 @@ section {
 }
 
 #supporters img {
+  height: 100%;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1536,6 +1550,7 @@ section {
 }
 
 #supporters2014 img {
+  height: 100%;
   transition: all 0.4s ease-in-out;
 }
 
